@@ -1,0 +1,2 @@
+.list li {position: relative; list-style: none; margin-left: 0; padding-left: 0;}
+.list li:before {content: '–'; position: absolute; right: calc(100% + 10px);}
