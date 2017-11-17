@@ -3,3 +3,9 @@ document.getElementById('elem-id').addEventListener('click', (event) => {
         // здесь как-то обрабатываем
     }
 });
+
+[].forEach.call(document.querySelectorAll("a"), function(el) {
+    el.addEventListener("click", function() {
+        // code… 
+    });
+});
